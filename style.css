@@ -1,0 +1,41 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:15px;
+}
+.touch{
+    padding:20px 50px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.touch:hover{
+    opacity: 0.7;
+}
+.number{
+    background-color:#f1f3f4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.operator{
+    background-color:#dadce0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.egal{
+    background-color: #4285f4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+.result{
+    border-radius: 5px;
+    grid-column: 1/-2;
+    height:62px;
+    padding-left: 0.6em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+}
